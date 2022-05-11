@@ -135,7 +135,7 @@ public class Sunflower {
         Thread.sleep(2000);
 
 
-        //{ This method is used to verify  date and time which the  plant is added date}
+        //{ This method is used to verify  date and time that plant is added}
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat simpleformat = new SimpleDateFormat("MMM dd, yyyy");
         System.out.println("Current Date = " + simpleformat.format(cal.getTime()));
